@@ -24,7 +24,10 @@ class Analyzer {
       if (err) {
         deferred.reject(err);
       } else {
-        deferred.resolve(tone);
+        deferred.resolve({
+          text,
+          tone,
+        });
       }
     });
     
