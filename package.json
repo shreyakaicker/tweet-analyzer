@@ -1,0 +1,19 @@
+{
+  "name": "tweet-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkidsan/tweet-analyzer.git"
+  },
+  "author": "Kieran Allen <kidsanallen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrkidsan/tweet-analyzer/issues"
+  },
+  "homepage": "https://github.com/mrkidsan/tweet-analyzer#readme"
+}
