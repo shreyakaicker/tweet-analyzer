@@ -16,11 +16,11 @@ class Analyzer {
   }
 
   getAnalysis(text) {
-    let text = { text };
+    let input = { text };
 
     let deferred = Q.defer();
 
-    this.analyzer.tone(text, (err, tone) => {
+    this.analyzer.tone(input , (err, tone) => {
       if (err) {
         deferred.reject(err);
       } else {

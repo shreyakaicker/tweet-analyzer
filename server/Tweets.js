@@ -20,11 +20,22 @@ class Tweets {
   }
 
   getLatestTweet() {
-    this.client.get('favorites/list', function(error, tweets, response){
+    this.client.get('favorites/list', (error, tweets, response) => {
       if(error) throw error;
-      jfs.writeFileSync('./callback.json', tweets[0]);
-      console.log(tweets[0].text);
+      
+      this.performAnalysis(tweets[0].text);
     });
+  }
+
+  performAnalysis(text) {
+    this.analyzer
+      .getAnalysis(text)
+      .then((a) => {
+        console.log(a);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 }
 
