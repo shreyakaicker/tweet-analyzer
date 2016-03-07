@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node ./server/server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/mrkidsan/tweet-analyzer/issues"
   },
-  "homepage": "https://github.com/mrkidsan/tweet-analyzer#readme"
+  "homepage": "https://github.com/mrkidsan/tweet-analyzer#readme",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "jsonfile": "^2.2.3",
+    "q": "^1.4.1",
+    "request": "^2.69.0",
+    "twitter": "^1.2.5",
+    "watson-developer-cloud": "^1.2.5"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.0"
+  }
 }
