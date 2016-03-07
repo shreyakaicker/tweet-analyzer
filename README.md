@@ -15,7 +15,7 @@ To use this app you must create a config.json file in the root of the project.
 
 ```Javascript
 {
-  "credentials": {
+  "credentials": { // Watson Tone Analyzer credentials
     "username": YOUR_USERNAME,
     "password": YOUR_PASSWORD,
     "version": "v3-beta",
