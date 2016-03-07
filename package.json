@@ -25,6 +25,7 @@
     "jsonfile": "^2.2.3",
     "q": "^1.4.1",
     "react": "^0.14.7",
+    "react-chartjs": "^0.7.3",
     "react-dom": "^0.14.7",
     "twitter": "^1.2.5",
     "watson-developer-cloud": "^1.2.5"

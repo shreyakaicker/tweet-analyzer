@@ -1,11 +1,9 @@
 'use strict';
 
 var config = require('../config.json');
-var Analyzer = require('./Analyzer');
 var Twitter = require('twitter');
 var jfs = require('jsonfile');
 var Q = require('q');
-
 
 class Tweets {
 
